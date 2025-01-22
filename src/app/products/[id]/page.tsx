@@ -1,4 +1,4 @@
-import { Truck, Package, Shield } from "lucide-react";
+import { Truck, Package, Shield, Images } from "lucide-react";
 import React from "react";
 import ItemsData from "@/app/components/data";
 import Image from "next/image";
@@ -12,14 +12,14 @@ const Newitems=ItemsData.slice(4);
   return (
     <>
       <section className="w-screen md:h-[700px] mt-10 mb-10 flex max-md:flex-col items-center">
-        <div className="md:w-1/2 h-[800px] w-full bg-amber-300 md:h-full">
-          <Image
+        <div className="md:w-1/2 h-[700px] w-[80%] md:h-full bg-cover bg-center"  style={{backgroundImage: `url(/images/banners/${item?.image})`}}>
+          {/* <Image
             height={600}
             width={500}
             src={`/images/banners/${item?.image}`}
             className="h-full w-full object-cover "
             alt={`Image Not Loaded`}
-          />
+          /> */}
         </div>
 
         <div className="w-1/2 pl-8 py-5 mt-16">

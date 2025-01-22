@@ -23,6 +23,7 @@ import dynamic from "next/dynamic";
 // Dynamically import Sheet with TypeScript
 
 const Header = () => {
+  
   return (
     <div>
       <nav className="w-screen flex  flex-col">
@@ -38,7 +39,7 @@ const Header = () => {
           </li>
           <li>
             <div className="flex">
-              <Link href="/products/cart" aria-label="Shopping Cart">
+              <Link href="/products/cart/4" aria-label="Shopping Cart">
                 <ShoppingCart strokeWidth={1} className="mr-3" />
               </Link>
               <Link href="/about" aria-label="User Profile">

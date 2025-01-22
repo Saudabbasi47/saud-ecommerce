@@ -7,9 +7,8 @@ const Page = () => {
   return (
     <>
       <div className="flex mt-10 gap-4 items-center justify-around max-md:flex-col max-md:text-center max-md:gap-5 mb-5 ">
-        <h1 className="text-2xl font-semibold font-mono">
-          A brand built on love of craftsman <br /> Ship and Creativty blah blah
-          blah
+        <h1 className="text-2xl  font-mono">
+          A brand built on love of craftsman <br /> Ship and Creativty. For Luxury life
         </h1>
         <button className="px-5 h-12 bg-slate-200 ">
           <Link href={"/products"} className="">
@@ -26,7 +25,7 @@ const Page = () => {
         <div className="flex gap-20 justify-around flex-col w-1/2 max-md:w-full max-md:items-center max-md:text-center h-[400px]  px-10  bg-[#271c5af4] text-white">
           <div>
 
-          <h1 className="text-2xl font-bold">
+          <h1 className="text-2xl font-semibold">
             It started with a small idea
           </h1>
           <p className="font-light mt-3">
@@ -61,7 +60,7 @@ const Page = () => {
 
 
 {/* Content Section */}
-        <div className="md:w-1/2 px-6  py-5 max-md:text-center flex flex-col gap-4 ">
+        <div className="md:w-1/2 px-6  py-5 max-md:text-center flex flex-col gap-4 bg-white">
           <h1 className="font-semibold text-lg">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti rem beatae, inventore fuga 
           </h1>
@@ -72,7 +71,7 @@ const Page = () => {
   Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, quos.
 </p>
 <div>
-  <button className=" mt-10 max-md:w-[300px]  px-6 py-3 bg-white hover:shadow-lg shadow-black backdrop-brightness-200 duration-100">
+  <button className=" mt-10 max-md:w-[300px]  px-6 py-3 bg-gray-200 hover:shadow-lg shadow-black backdrop-brightness-200 duration-100">
     <Link href="#contact
     ">Get In Touch</Link>
   </button>

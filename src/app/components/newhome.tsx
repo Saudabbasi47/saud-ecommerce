@@ -8,15 +8,15 @@ const NewHome = () => {
 
   return (
     <>
-      <main>
+      <main >
         {/* Main Hero Section */}
         {/* For PC */}
-        <section className="max-md:hidden">
+        <section className="max-md:hidden mt-6">
           <div
             className=" h-[600px] w-screen flex justify-end items-center bg-center bg-cover"
             style={{ backgroundImage: "url(/images/banners/heroo.jpg)" }}
           >
-            <div className="h-[400px] bg-white w-[600px] mr-10 p-10">
+            <div className="h-[400px] bg-white w-[600px] mr-20 p-10">
               <h1 className="text-2xl p-3 ">
                 Luxury homeware for people who love timeless design quality
               </h1>
@@ -73,7 +73,7 @@ const NewHome = () => {
             </li>
           ))}
         </ul>
-        <section className="flex md:p-5 mt-5  max-md:flex-col justify-center items-center md:gap-4">
+        <section className="flex p-5 max-md:px-20 w-screen mt-5  max-md:flex-col justify-center items-center gap-4">
           <div className="h-[400px] w-screen md:w-[600px] max-md:text-center flex flex-col gap-5  bg-[#2a254b] p-5 text-white">
             <h1 className="text-3xl mt-5">It started with a small idea</h1>
             <p className="font-thin mt-10">
@@ -116,7 +116,7 @@ const NewHome = () => {
                   Great Discounts
                 </li>
               </ul>
-              <div className="md:w-[480px] w-[350px] overflow-hidden  h-[50px] bg-white mt-10 mb-10 ">
+              <div className="md:w-[480px] w-[320px] overflow-hidden  h-[50px] bg-white mt-10 mb-10 ">
                 <input className="h-full w-[75%]" type="text" />
                 <button className="h-full w-[25%] px-3 bg-[#2a254b] overflow-hidden">
                   Sign Up

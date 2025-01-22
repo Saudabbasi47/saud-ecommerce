@@ -3,11 +3,11 @@ const Page = () => {
   return (
 <>
 <div id='cca' className=' h-[100px] w-screen '>
-<h1 className='text-4xl font-bold text-white mt-14  ml-5 overflow-hidden'>All Products</h1>
+<h1 className='text-5xl font-bold text-white mt-14 ml-5 overflow-hidden'>All Products</h1>
 </div>
 
 <div>
-    <div className="h-[60px] w-screen bg-slate-100">
+    <div className="h-[60px] w-screen ">
 
     </div>
 <ul className="flex flex-wrap gap-20 mt-10 mb-10 justify-center items-center content-center">
